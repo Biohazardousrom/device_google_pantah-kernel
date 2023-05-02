@@ -1,0 +1,5 @@
+KMI_DEFINITION=abi.xml
+KMI_MONITORED=1
+KMI_SYMBOL_LIST=abi_symbollist
+KERNEL_BINARY=vmlinux
+MODULES_ARCHIVE=unstripped_modules.tar.gz
