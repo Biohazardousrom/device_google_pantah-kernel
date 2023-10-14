@@ -573,6 +573,7 @@ __unregister_chrdev	UNKNOWN
 __update_load_avg_blocked_se	UNKNOWN	
 __usb_create_hcd	UNKNOWN	
 __usecs_to_jiffies	UNKNOWN	
+__v4l2_ctrl_grab	UNKNOWN	
 __v4l2_device_register_subdev_nodes	UNKNOWN	
 __video_register_device	UNKNOWN	
 __vlan_find_dev_deep_rcu	UNKNOWN	
@@ -663,6 +664,8 @@ android_debug_symbol	UNKNOWN
 android_rvh_probe_register	UNKNOWN	
 anon_inode_getfd	UNKNOWN	
 anon_inode_getfile	UNKNOWN	
+arc4_crypt	UNKNOWN	
+arc4_setkey	UNKNOWN	
 arch_timer_read_counter	UNKNOWN	
 argv_free	UNKNOWN	
 argv_split	UNKNOWN	
@@ -805,6 +808,7 @@ bpf_trace_run7	UNKNOWN
 bpf_trace_run8	UNKNOWN	
 bpf_trace_run9	UNKNOWN	
 bpf_warn_invalid_xdp_action	UNKNOWN	
+bridge_tunnel_header	UNKNOWN	
 bt_err	UNKNOWN	
 bt_info	UNKNOWN	
 bt_to_errno	UNKNOWN	
@@ -1959,6 +1963,7 @@ fd_install	UNKNOWN
 fget	UNKNOWN	
 file_path	UNKNOWN	
 filp_close	UNKNOWN	
+filp_open	UNKNOWN	
 filp_open_block	UNKNOWN	
 find_extend_vma	UNKNOWN	
 find_first_bit	UNKNOWN	
@@ -1972,10 +1977,12 @@ find_task_by_vpid	UNKNOWN
 find_vma	UNKNOWN	
 find_vpid	UNKNOWN	
 finish_wait	UNKNOWN	
+firmware_request_cache	UNKNOWN	
 firmware_request_nowarn	UNKNOWN	
 flow_keys_basic_dissector	UNKNOWN	
 flush_dcache_page	UNKNOWN	
 flush_delayed_work	UNKNOWN	
+flush_signals	UNKNOWN	
 flush_work	UNKNOWN	
 flush_workqueue	UNKNOWN	
 force_fast_charge	UNKNOWN	
@@ -2239,6 +2246,7 @@ idr_preload	UNKNOWN
 idr_remove	UNKNOWN	
 ieee80211_alloc_hw_nm	UNKNOWN	
 ieee80211_ap_probereq_get	UNKNOWN	
+ieee80211_ave_rssi	UNKNOWN	
 ieee80211_beacon_cntdwn_is_complete	UNKNOWN	
 ieee80211_beacon_get_template	UNKNOWN	
 ieee80211_beacon_get_tim	UNKNOWN	
@@ -2284,8 +2292,10 @@ ieee80211_rx_napi	UNKNOWN
 ieee80211_scan_completed	UNKNOWN	
 ieee80211_sched_scan_results	UNKNOWN	
 ieee80211_sched_scan_stopped	UNKNOWN	
+ieee80211_send_bar	UNKNOWN	
 ieee80211_sta_ps_transition	UNKNOWN	
 ieee80211_sta_register_airtime	UNKNOWN	
+ieee80211_start_tx_ba_session	UNKNOWN	
 ieee80211_stop_queue	UNKNOWN	
 ieee80211_stop_queues	UNKNOWN	
 ieee80211_stop_rx_ba_session	UNKNOWN	
@@ -2295,6 +2305,7 @@ ieee80211_tx_dequeue	UNKNOWN
 ieee80211_tx_prepare_skb	UNKNOWN	
 ieee80211_tx_rate_update	UNKNOWN	
 ieee80211_tx_status	UNKNOWN	
+ieee80211_tx_status_ext	UNKNOWN	
 ieee80211_tx_status_irqsafe	UNKNOWN	
 ieee80211_txq_get_depth	UNKNOWN	
 ieee80211_txq_may_transmit	UNKNOWN	
@@ -2477,6 +2488,8 @@ is_console_locked	UNKNOWN
 is_dma_buf_file	UNKNOWN	
 is_vmalloc_addr	UNKNOWN	
 iterate_fd	UNKNOWN	
+iwe_stream_add_event	UNKNOWN	
+iwe_stream_add_point	UNKNOWN	
 jiffies	UNKNOWN	
 jiffies64_to_msecs	UNKNOWN	
 jiffies_to_msecs	UNKNOWN	
@@ -2492,9 +2505,11 @@ kernel_getsockname	UNKNOWN
 kernel_kobj	UNKNOWN	
 kernel_neon_begin	UNKNOWN	
 kernel_neon_end	UNKNOWN	
+kernel_read	UNKNOWN	
 kernel_recvmsg	UNKNOWN	
 kernel_restart	UNKNOWN	
 kernel_sendmsg	UNKNOWN	
+kernel_sigaction	UNKNOWN	
 kernel_sock_shutdown	UNKNOWN	
 kfree	UNKNOWN	
 kfree_const	UNKNOWN	
@@ -2505,6 +2520,7 @@ kick_all_cpus_sync	UNKNOWN
 kill_anon_super	UNKNOWN	
 kill_fasync	UNKNOWN	
 kill_litter_super	UNKNOWN	
+kill_pid	UNKNOWN	
 kimage_voffset	UNKNOWN	
 kiocb_set_cancel_fn	UNKNOWN	
 kmalloc_caches	UNKNOWN	
@@ -3206,6 +3222,7 @@ proc_create_single_data	UNKNOWN
 proc_dointvec	UNKNOWN	
 proc_dostring	UNKNOWN	
 proc_douintvec_minmax	UNKNOWN	
+proc_get_parent_data	UNKNOWN	
 proc_mkdir	UNKNOWN	
 proc_mkdir_data	UNKNOWN	
 proc_remove	UNKNOWN	
@@ -3518,6 +3535,7 @@ sdhci_set_uhs_signaling	UNKNOWN
 sdhci_setup_host	UNKNOWN	
 sdhci_suspend_host	UNKNOWN	
 sdio_claim_host	UNKNOWN	
+sdio_claim_irq	UNKNOWN	
 sdio_disable_func	UNKNOWN	
 sdio_enable_func	UNKNOWN	
 sdio_f0_readb	UNKNOWN	
@@ -3525,13 +3543,18 @@ sdio_f0_writeb	UNKNOWN
 sdio_get_host_pm_caps	UNKNOWN	
 sdio_memcpy_fromio	UNKNOWN	
 sdio_memcpy_toio	UNKNOWN	
+sdio_readb	UNKNOWN	
+sdio_readl	UNKNOWN	
 sdio_readsb	UNKNOWN	
 sdio_register_driver	UNKNOWN	
 sdio_release_host	UNKNOWN	
+sdio_release_irq	UNKNOWN	
 sdio_set_block_size	UNKNOWN	
 sdio_set_host_pm_flags	UNKNOWN	
 sdio_signal_irq	UNKNOWN	
 sdio_unregister_driver	UNKNOWN	
+sdio_writeb	UNKNOWN	
+sdio_writel	UNKNOWN	
 sdio_writesb	UNKNOWN	
 send_sig_info	UNKNOWN	
 seq_hex_dump	UNKNOWN	
@@ -4202,6 +4225,7 @@ usb_hcds_loaded	UNKNOWN
 usb_hub_clear_tt_buffer	UNKNOWN	
 usb_hub_find_child	UNKNOWN	
 usb_ifnum_to_if	UNKNOWN	
+usb_init_urb	UNKNOWN	
 usb_interface_id	UNKNOWN	
 usb_kill_anchored_urbs	UNKNOWN	
 usb_kill_urb	UNKNOWN	
@@ -4221,6 +4245,7 @@ usb_register_dev	UNKNOWN
 usb_register_driver	UNKNOWN	
 usb_register_notify	UNKNOWN	
 usb_remove_hcd	UNKNOWN	
+usb_reset_device	UNKNOWN	
 usb_role_switch_get	UNKNOWN	
 usb_role_switch_get_drvdata	UNKNOWN	
 usb_role_switch_put	UNKNOWN	
@@ -4281,6 +4306,8 @@ v4l2_ctrl_new_std_menu	UNKNOWN
 v4l2_ctrl_poll	UNKNOWN	
 v4l2_ctrl_subdev_log_status	UNKNOWN	
 v4l2_ctrl_subscribe_event	UNKNOWN	
+v4l2_device_disconnect	UNKNOWN	
+v4l2_device_put	UNKNOWN	
 v4l2_device_register	UNKNOWN	
 v4l2_device_register_subdev	UNKNOWN	
 v4l2_device_set_name	UNKNOWN	
@@ -4335,9 +4362,11 @@ vb2_fop_mmap	UNKNOWN
 vb2_fop_poll	UNKNOWN	
 vb2_fop_read	UNKNOWN	
 vb2_fop_release	UNKNOWN	
+vb2_fop_write	UNKNOWN	
 vb2_ioctl_create_bufs	UNKNOWN	
 vb2_ioctl_dqbuf	UNKNOWN	
 vb2_ioctl_expbuf	UNKNOWN	
+vb2_ioctl_prepare_buf	UNKNOWN	
 vb2_ioctl_qbuf	UNKNOWN	
 vb2_ioctl_querybuf	UNKNOWN	
 vb2_ioctl_reqbufs	UNKNOWN	
@@ -4534,3 +4563,4 @@ xhci_run	UNKNOWN
 xhci_suspend	UNKNOWN	
 xhci_update_erst_dequeue	UNKNOWN	
 xhci_vendor_get_ops	UNKNOWN	
+yield	UNKNOWN	
